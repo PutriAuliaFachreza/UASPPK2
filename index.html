@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+
+    <header>
+        <!-- Jumbotron -->
+        <nav class="navbar navbar-expand-sm fixed-top" style="background-color: #E1F5FE;">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logolucu.jpg" alt="Logo" style="width:40px;" class="rounded-pill">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#update">Update</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#information">Information</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Account</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Profil</a></li>
+                                <li><a class="dropdown-item" href="#">Setting</a></li>
+                                <li><a class="dropdown-item" href="#">Log Out</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <form class="d-flex justify-content-end">
+                        <input class="form-control me-2" type="text" placeholder="Search">
+                        <button class="btn btn-primary btn-info text-white" type="button">Search</button>
+                    </form>
+                </div> 
+                
+            </div>
+        </nav>
+        <!-- Jumbotron -->
+    </header>
+        
+        <div id="home" class="bg-primary bg-info text-white py-5">
+            <div class="container py-5">
+                <h1>Official Website Perpustakaan Daerah</h1>
+                <h2>Mari Menjelajahi Ilmu di Perpustakaan Kami </h2>
+                <p> <i>Sambut Kehangatan Pengetahuan di Perpustakaan Ini</i><br> 
+                    <i>Menemukan Pengetahuan, Satu Halaman Buku pada Satu Waktu</i><br>
+                    <i>Tempat yang Ideal untuk Mengejar Mimpi dan Pengetahuan</i>
+                </p>
+                <a href="data.php" class="btn btn-light shadow-0 text-primary pt-2 border border-white" >Isi Sekarang!</i></a>
+            </div>
+        </div>
+
+        <!-- Carousel -->
+        <div>
+            <div class="container p-5 my-5 bg-white text-white text-center">
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    </div>
+                    
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/lib4.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+                            <div class="carousel-caption">
+                                <h3>Modern facilities</h3>
+                                <p>Indicates that the library has up-to-date and high-quality amenities.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/lib3.jpg" alt="Chicago" class="d-block" style="width:100%">
+                            <div class="carousel-caption">
+                                <h3>Comfortable and pleasant environment</h3>
+                                <p>Emphasizes the comfort and beauty of the surroundings.</p>
+                            </div> 
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/lib8.jpg" alt="New York" class="d-block" style="width:100%">
+                            <div class="carousel-caption">
+                                <h3>Peaceful and serene</h3>
+                                <p>Depicts a calm and quiet atmosphere, conveying a sense of tranquility.</p>
+                            </div>  
+                        </div>
+                    </div>
+                    
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    <!-- Feature -->
+    <section>
+        <div id="update" class="container">
+            <div class="row gy-4">
+                <div class="col-lg-6">
+                    <div class="card-banner bg-gray h-100" style="min-height: 200px; background-size: cover;background-position: center;width: 100%;background-repeat: no-repeat;top: 50%;background-image: url('img/lib7.jpg');">
+                        <div class="p-3 p-lg-5 " style="max-width: 70%;">
+                            <h3 class="text-white">Best program, event, and service in our library</h3>
+                            <p>Get our Services</p>
+                            <button class="btn btn-info shadow-0 text-white" href="data.php"> Claim Here </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row mb-3 mb-sm-4 g-3 g-sm-4">
+                        <div class="col-6 d-flex">
+                            <div class="card w-100 bg-primary bg-info" style="min-height: 200px;">
+                                <div class="card-body">
+                                    <h5 class="text-white">Inovatif</h5>
+                                    <p class="text-white">Program kami selalu menghadirkan sesuatu yang baru, kreatif, dan inovatif dalam penawaran layanan</p>
+                                    <a class="btn btn-outline-light btn-sm" href="#">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 d-flex">
+                            <div class="card w-100 bg-primary bg-info" style="min-height: 200px;">
+                                <div class="card-body">
+                                    <h5 class="text-white">Impactful</h5>
+                                    <p class="text-white">Program kami memiliki dampak positif dalam meningkatkan minat serta kegemaran membaca</p>
+                                    <a class="btn btn-outline-light btn-sm" href="#">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row.// -->
+        
+                    <div class="card" style="min-height: 200px; background-color: #E1F5FE;">
+                        <div class="card-body">
+                            <h5 class="text-primary">Memorable Experiences</h5>
+                            <p class="text-primary" style="max-width: 400px;">Program kami memberikan pengalaman yang berkesan, menginspirasi, dan meninggalkan kesan positif yang mendalam</p>
+                            <a class="btn btn-outline-primary btn-sm" href="#">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- col.// -->
+            </div>
+            <!-- row.// -->
+        </div>
+        <!-- container end.// -->
+    </section>
+    <!-- Feature -->
+    
+    <!-- Feature -->
+    <section class="mt-5 bg-info">
+        <div id="about" class="container text-white pt-3">
+            <header class="pt-4 pb-3">
+                <h3>Why choose us</h3>
+            </header>
+      
+            <div class="row mb-4">
+                <div class="col-lg-4 col-md-6">
+                    <figure class="d-flex align-items-center mb-4">
+                        <span class="rounded-circle bg-white p-3 d-flex me-2 mb-2">
+                            <i class="fas fa-camera-retro fa-2x fa-fw text-primary floating"></i>
+                        </span>
+                        <figcaption class="info">
+                            <h6 class="title">Koleksi Buku yang Luas</h6>
+                            
+                        </figcaption>
+                    </figure>
+                    <!-- itemside // -->
+                </div>
+                <!-- col // -->
+                <div class="col-lg-4 col-md-6">
+                    <figure class="d-flex align-items-center mb-4">
+                        <span class="rounded-circle bg-white p-3 d-flex me-2 mb-2">
+                            <i class="fas fa-star fa-2x fa-fw text-primary floating"></i>
+                        </span>
+                        <figcaption class="info">
+                            <h6 class="title">Layanan Terpadu</h6>
+                            
+                        </figcaption>
+                    </figure>
+                    <!-- itemside // -->
+                </div>
+                <!-- col // -->
+                <div class="col-lg-4 col-md-6">
+                    <figure class="d-flex align-items-center mb-4">
+                        <span class="rounded-circle bg-white p-3 d-flex me-2 mb-2">
+                            <i class="fas fa-plane fa-2x fa-fw text-primary floating"></i>
+                        </span>
+                        <figcaption class="info">
+                            <h6 class="title">Aktivitas dan Program Beragam</h6>
+                            
+                        </figcaption>
+                    </figure>
+                    <!-- itemside // -->
+                </div>
+                <!-- col // -->
+                <div class="col-lg-4 col-md-6">
+                    <figure class="d-flex align-items-center mb-4">
+                        <span class="rounded-circle bg-white p-3 d-flex me-2 mb-2">
+                            <i class="fas fa-users fa-2x fa-fw text-primary floating"></i>
+                        </span>
+                        <figcaption class="info">
+                            <h6 class="title">Teknologi yang Mutakhir</h6>
+                            
+                        </figcaption>
+                    </figure>
+                    <!-- itemside // -->
+                </div>
+                <!-- col // -->
+                <div class="col-lg-4 col-md-6">
+                    <figure class="d-flex align-items-center mb-4">
+                        <span class="rounded-circle bg-white p-3 d-flex me-2 mb-2">
+                            <i class="fas fa-thumbs-up fa-2x fa-fw text-primary floating"></i>
+                        </span>
+                        <figcaption class="info">
+                            <h6 class="title">Staf yang Ramah dan Ahli</h6>
+                            
+                        </figcaption>
+                    </figure>
+                    <!-- itemside // -->
+                </div>
+                <!-- col // -->
+                <div class="col-lg-4 col-md-6">
+                    <figure class="d-flex align-items-center mb-4">
+                        <span class="rounded-circle bg-white p-3 d-flex me-2 mb-2">
+                            <i class="fas fa-box fa-2x fa-fw text-primary floating"></i>
+                        </span>
+                        <figcaption class="info">
+                            <h6 class="title">Fasilitas Modern</h6>
+                            
+                        </figcaption>
+                    </figure>
+                    <!-- itemside // -->
+                </div>
+                <!-- col // -->
+            </div>
+        </div>
+        <!-- container end.// -->
+    </section>
+    <!-- Feature -->  
+      
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-muted mt-3" style="background-color: #E1F5FE;">
+        <!-- Section: Links  -->
+        <section>
+            <div id="information" class="container text-center text-md-start pt-4 pb-4">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                <!-- Grid column -->
+                    <div class="col-12 col-lg-3 col-sm-12 mb-2">
+                        <!-- Content -->
+                        <a href="https://mdbootstrap.com/" target="_blank" class="">
+                            <img src="img/logolucu.jpg" style="width:40px;" class="rounded-pill" />
+                        </a>
+                        <p class="mt-2 text-dark">© 2023 Copyright: Perpustakaan Kota Malang</p>
+                    </div>
+                    <!-- Grid column -->
+            
+                    <!-- Grid column -->
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <!-- Links -->
+                        <h6 class="text-uppercase text-dark fw-bold mb-2">About Us</h6>
+                        <ul class="list-unstyled mb-4">
+                            <li><a class="text-muted" href="#">Event</a></li>
+                            <li><a class="text-muted" href="#">Location</a></li>
+                        </ul>
+                    </div>
+                    <!-- Grid column -->
+            
+                    <!-- Grid column -->
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <!-- Links -->
+                        <h6 class="text-uppercase text-dark fw-bold mb-2">Information</h6>
+                        <ul class="list-unstyled mb-4">
+                            <li><a class="text-muted" href="#">Blogs</a></li>
+                        </ul>
+                    </div>
+                    <!-- Grid column -->
+            
+                    <!-- Grid column -->
+                    <div class="col-6 col-sm-4 col-lg-2">
+                        <!-- Links -->
+                        <h6 class="text-uppercase text-dark fw-bold mb-2">Support</h6>
+                        <ul class="list-unstyled mb-4">
+                            <li><a class="text-muted" href="#">Help center</a></li>
+                        </ul>
+                    </div>
+                    <!-- Grid column -->
+            
+                    <!-- Grid column -->
+                    <div class="col-12 col-sm-12 col-lg-3">
+                        <!-- Links -->
+                        <h6 class="text-uppercase text-dark fw-bold mb-2">Newsletter</h6>
+                        <p class="text-muted">Stay in touch with latest updates about our collections and event</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+        
+    </footer>
+    <!-- Footer -->
+
+    </body>
+</html>
